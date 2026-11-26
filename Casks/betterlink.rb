@@ -1,9 +1,9 @@
-# Homebrew cask template. scripts/release.sh fills in 0.3.25 and a84baa0aaead509090e5f01e63d0fe27614b079ffed7abd171acd6100b2f6aab
+# Homebrew cask template. scripts/release.sh fills in 0.3.26 and 46ba41eeb822e28811ebf47881b3a621dfbaf32ee4b0b0df86f886b626fa1c73
 # and writes dist/betterlink.rb, which each GitHub Release carries. It goes in
 # the wkoutre/homebrew-tap repo as Casks/betterlink.rb (RELEASING.md).
 cask "betterlink" do
-  version "0.3.25"
-  sha256 "a84baa0aaead509090e5f01e63d0fe27614b079ffed7abd171acd6100b2f6aab"
+  version "0.3.26"
+  sha256 "46ba41eeb822e28811ebf47881b3a621dfbaf32ee4b0b0df86f886b626fa1c73"
 
   url "https://github.com/wkoutre/betterlink/releases/download/v#{version}/betterlink-#{version}.zip"
   name "betterlink"
